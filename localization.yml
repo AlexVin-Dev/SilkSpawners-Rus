@@ -1,0 +1,62 @@
+# Эта строка влияет на новое именование производителей, чтобы отключить это, измените сообщение обратно на Monster Spawner
+spawnerName: '&e%creature% &fSpawner'
+ 
+addedEgg: '&2Успешно добавлено &e%amount% %creature% spawn egg(s) &2к вашему инвентарю.'
+addedEggOtherPlayer: '&2Вы добавили &e%amount% %creature% spawn egg(s) &2игроку &e%player%&2''в
+  инвентарь.'
+addedSpawner: '&2Вы добавили &e%amount% %creature% spawner(s) &2к вашему инвентарю.'
+addedSpawnerOtherPlayer: '&2Вы добавили &e%amount% %creature%  spawner(s) &2игроку
+  &e%player%&2''в инвентарь.'
+noFreeSlot: '&4В инвентаре нет свободного места!'
+ 
+noPermission: '&4У вас нет разрешения на использование этой команды!'
+noPermissionChangingEgg: '&4У вас нет разрешения на изменение яиц икры!'
+noPermissionChangingSpawner: '&4У вас нет разрешения на изменение тип спавера!'
+noPermissionFreeEgg: '&4У вас нет разрешения на создание свободных яиц!'
+noPermissionFreeSpawner: '&4У вас нет разрешения на создание свободных спавнерав!'
+noPermissionViewType: '&4У вас нет разрешения на просмотр типа этого спавера!'
+noPermissionChangingWithEggs: '&4У вас нет разрешения на изменение с помощью    икру
+  яиц!'
+noPermissionCraft: '&4У вас нет разрешения на создание &e%creature% &4спавнера!'
+noPermissionPlace: '&4У вас нет разрешения на размещение &e%creature% &4спавнера!'
+ 
+changedEgg: '&2Вы сменили тип спавнера на: &e%creature%'
+changedSpawner: '&2Успешно сменил тип на&e%creature% спавнер.'
+ 
+playerOffline: '&4Извините, этот пользователя нет в сети!'
+changingDeniedFactions: '&4Вы не можете менять тип спавера в других территорих!'
+changindDeniedFeudal: '&4Вы не можете менять тип спавнера в чужом регионе!'
+changingDeniedWorldGuard: '&4Изменение типа спавнера, запрещенного защитой WorldGuard.'
+getSpawnerType: '&2Это &e%creature% спавнер&2.'
+unknownArgument: '&4Неопознанный аргумент. введите:&e/silkspawners help'
+unknownCreature: '&4Непризнанное существо &e%creature%&4.'
+useNumbers: '&4Пожалуйста, используйте число от 1 до 64!'
+noConsole: '&4Консоль не может использовать эту команду!'
+configsReloaded: '&2Успешно перезагрузили конфиги!'
+ 
+spawnerBroken: '&eВы сломали спавнер &2%creature%'
+spawnerPlaced: '&eВы поставили спавнер &2%creature%'
+placingDefault: '&eРазмещение стандартный спавнер'
+ 
+informationOfSpawner1: -- Расадник монстров --
+informationOfSpawner2: '-- Тип: %creature% --'
+informationOfSpawner3: '-- Идентификатор объекта: %ID% --'
+informationOfSpawnerBar: 'Расадник монстров, Type: &e%creature%&f, ID: %ID%'
+ 
+spawningDenied: '&4Spawning of &e%creature% (ID %ID%) &4запрещён!'
+spawning: '&2Spawning &e%creature% (ID %ID%)'
+noSpawnerHere: '&4Spawner не может быть размещено здесь, потому что заблокированный
+  блок заблокирован!'
+ 
+lookAtSpawner: '&4Вы должны смотреть прямо на spawner.'
+spawnerNotDeterminable: '&4У вас либо нет маляра или яйца в руке,    или яйцо в обеих
+  руках. Пожалуйста, сделайте одну пустую!'
+help: |-
+  '&7------&6SilkSpawners v%version% Help Menu&7------'
+  '&e/ss help &7- &2Отображает меню справки.'
+  '&e/ss list|all &7- &2Отображает все доступные существа.'
+  '&e/ss view &7- &2Отображает информацию о просмотренном спавнере.'
+  '&e/ss reload|rl &7- &2Перезагружает файлы конфигурации.'
+  '&e/ss change <newMob> &7- &2Изменяет spawner на который вы сейчас удерживаете или просматриваете.'
+  '&e/ss give|add <player> <mob> [amount] &7- &2Дает игроку или яйцу игроку. Сумма необязательна'
+changingDeniedFeudal: '&4Вы не можете менять spawner в других приватах'
