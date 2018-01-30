@@ -1,5 +1,5 @@
 # SilkSpawners-Rus
-Translation plugin SilkSpawners Russian
+Translation plugin <a href="https://dev.bukkit.org/projects/silkspawners">SilkSpawners</a> Russian
 
 Как сделать русский язык?
 
