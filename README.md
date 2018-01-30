@@ -1,2 +1,2 @@
-# silkspawners-Rus
-Translation plugin silkspawners Russian
+# SilkSpawners-Rus
+Translation plugin SilkSpawners Russian
